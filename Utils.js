@@ -45,6 +45,10 @@ function calculatorEventHandler(element, resultElement) {
                 resultElement.innerHTML = newValue;
                 previousValue = newValue;
                 break;
+            case 'fnPercent':
+                newValue = "%";
+                resultElement.innerHTML = newValue;
+                break;
             default:
                 break;
         }
